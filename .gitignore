@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (too large)
+project/data/
+TESS_Toronto_emotional_speech_set_data/
+*.wav
+*.mp3
+
+# Cached features
+project/models/*/cached_features/
+project/models/*/*/cached_features/
+*.pt
+!project/models/**/best_*.pt
+
+# Large model files
+*.pth
+*.ckpt
+
+# Results (selective - keep visualizations, exclude raw data sometimes)
+project/Results/**/plots/*.png
+project/Results/**/*.txt
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Large directories
+node_modules/
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# IDE settings
+.vscode/settings.json
+.vscode/launch.json
+*.sublime-workspace
