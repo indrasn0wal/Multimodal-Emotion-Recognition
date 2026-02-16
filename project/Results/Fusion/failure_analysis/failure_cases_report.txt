@@ -1,0 +1,456 @@
+================================================================================
+FAILURE CASE ANALYSIS - ALL FUSION VARIANTS
+================================================================================
+
+
+CROSS_ATTENTION FUSION - FAILURE CASES
+--------------------------------------------------------------------------------
+
+Failure Case #1:
+  Error Pattern: angry → fear
+  File: sample_84
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.9374)
+
+Failure Case #2:
+  Error Pattern: angry → fear
+  File: sample_98
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.8941)
+
+Failure Case #3:
+  Error Pattern: angry → fear
+  File: sample_187
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.8860)
+
+Failure Case #4:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_400
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.8836)
+
+Failure Case #5:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_175
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.6632)
+
+Failure Case #6:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_273
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.6396)
+
+Failure Case #7:
+  Error Pattern: disgust → pleasant_surprise
+  File: sample_324
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: pleasant_surprise (confidence: 0.9551)
+
+Failure Case #8:
+  Error Pattern: disgust → pleasant_surprise
+  File: sample_63
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: pleasant_surprise (confidence: 0.9535)
+
+Failure Case #9:
+  Error Pattern: disgust → pleasant_surprise
+  File: sample_112
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: pleasant_surprise (confidence: 0.5741)
+
+Failure Case #10:
+  Error Pattern: happy → fear
+  File: sample_37
+  Transcript: 'N/A'
+  True Emotion: happy
+  Predicted: fear (confidence: 0.7977)
+
+Failure Case #11:
+  Error Pattern: happy → fear
+  File: sample_288
+  Transcript: 'N/A'
+  True Emotion: happy
+  Predicted: fear (confidence: 0.6775)
+
+Failure Case #12:
+  Error Pattern: happy → fear
+  File: sample_119
+  Transcript: 'N/A'
+  True Emotion: happy
+  Predicted: fear (confidence: 0.5512)
+
+Failure Case #13:
+  Error Pattern: neutral → angry
+  File: sample_126
+  Transcript: 'N/A'
+  True Emotion: neutral
+  Predicted: angry (confidence: 0.9629)
+
+Failure Case #14:
+  Error Pattern: neutral → angry
+  File: sample_251
+  Transcript: 'N/A'
+  True Emotion: neutral
+  Predicted: angry (confidence: 0.7221)
+
+Failure Case #15:
+  Error Pattern: neutral → angry
+  File: sample_401
+  Transcript: 'N/A'
+  True Emotion: neutral
+  Predicted: angry (confidence: 0.6849)
+
+
+
+CONCATENATION FUSION - FAILURE CASES
+--------------------------------------------------------------------------------
+
+Failure Case #1:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_281
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.8959)
+
+Failure Case #2:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_42
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.7951)
+
+Failure Case #3:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_273
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.7531)
+
+Failure Case #4:
+  Error Pattern: disgust → sad
+  File: sample_300
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: sad (confidence: 0.8636)
+
+Failure Case #5:
+  Error Pattern: disgust → sad
+  File: sample_150
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: sad (confidence: 0.7846)
+
+Failure Case #6:
+  Error Pattern: disgust → sad
+  File: sample_240
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: sad (confidence: 0.7121)
+
+Failure Case #7:
+  Error Pattern: angry → fear
+  File: sample_301
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.9503)
+
+Failure Case #8:
+  Error Pattern: angry → fear
+  File: sample_187
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.7875)
+
+Failure Case #9:
+  Error Pattern: angry → fear
+  File: sample_319
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.5372)
+
+Failure Case #10:
+  Error Pattern: pleasant_surprise → fear
+  File: sample_200
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: fear (confidence: 0.9435)
+
+Failure Case #11:
+  Error Pattern: pleasant_surprise → fear
+  File: sample_353
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: fear (confidence: 0.8652)
+
+Failure Case #12:
+  Error Pattern: pleasant_surprise → fear
+  File: sample_269
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: fear (confidence: 0.4742)
+
+Failure Case #13:
+  Error Pattern: pleasant_surprise → happy
+  File: sample_56
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: happy (confidence: 0.9309)
+
+Failure Case #14:
+  Error Pattern: pleasant_surprise → happy
+  File: sample_78
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: happy (confidence: 0.8559)
+
+
+
+GATED FUSION - FAILURE CASES
+--------------------------------------------------------------------------------
+
+Failure Case #1:
+  Error Pattern: disgust → pleasant_surprise
+  File: sample_324
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: pleasant_surprise (confidence: 0.9444)
+
+Failure Case #2:
+  Error Pattern: disgust → pleasant_surprise
+  File: sample_63
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: pleasant_surprise (confidence: 0.9348)
+
+Failure Case #3:
+  Error Pattern: disgust → pleasant_surprise
+  File: sample_207
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: pleasant_surprise (confidence: 0.9246)
+
+Failure Case #4:
+  Error Pattern: angry → fear
+  File: sample_13
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.9104)
+
+Failure Case #5:
+  Error Pattern: angry → fear
+  File: sample_301
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.6855)
+
+Failure Case #6:
+  Error Pattern: angry → fear
+  File: sample_187
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.6197)
+
+Failure Case #7:
+  Error Pattern: pleasant_surprise → angry
+  File: sample_208
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: angry (confidence: 0.8888)
+
+Failure Case #8:
+  Error Pattern: pleasant_surprise → angry
+  File: sample_305
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: angry (confidence: 0.8165)
+
+Failure Case #9:
+  Error Pattern: pleasant_surprise → angry
+  File: sample_206
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: angry (confidence: 0.6915)
+
+Failure Case #10:
+  Error Pattern: neutral → angry
+  File: sample_126
+  Transcript: 'N/A'
+  True Emotion: neutral
+  Predicted: angry (confidence: 0.9568)
+
+Failure Case #11:
+  Error Pattern: neutral → angry
+  File: sample_401
+  Transcript: 'N/A'
+  True Emotion: neutral
+  Predicted: angry (confidence: 0.8086)
+
+Failure Case #12:
+  Error Pattern: neutral → angry
+  File: sample_296
+  Transcript: 'N/A'
+  True Emotion: neutral
+  Predicted: angry (confidence: 0.5428)
+
+Failure Case #13:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_36
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.7955)
+
+Failure Case #14:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_42
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.7270)
+
+
+
+WEIGHTED FUSION - FAILURE CASES
+--------------------------------------------------------------------------------
+
+Failure Case #1:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_281
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.9131)
+
+Failure Case #2:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_175
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.7212)
+
+Failure Case #3:
+  Error Pattern: pleasant_surprise → disgust
+  File: sample_167
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: disgust (confidence: 0.6377)
+
+Failure Case #4:
+  Error Pattern: angry → fear
+  File: sample_187
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.8674)
+
+Failure Case #5:
+  Error Pattern: angry → fear
+  File: sample_13
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.6705)
+
+Failure Case #6:
+  Error Pattern: angry → fear
+  File: sample_301
+  Transcript: 'N/A'
+  True Emotion: angry
+  Predicted: fear (confidence: 0.6061)
+
+Failure Case #7:
+  Error Pattern: neutral → pleasant_surprise
+  File: sample_6
+  Transcript: 'N/A'
+  True Emotion: neutral
+  Predicted: pleasant_surprise (confidence: 0.8124)
+
+Failure Case #8:
+  Error Pattern: neutral → pleasant_surprise
+  File: sample_141
+  Transcript: 'N/A'
+  True Emotion: neutral
+  Predicted: pleasant_surprise (confidence: 0.4654)
+
+Failure Case #9:
+  Error Pattern: pleasant_surprise → happy
+  File: sample_56
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: happy (confidence: 0.9154)
+
+Failure Case #10:
+  Error Pattern: pleasant_surprise → happy
+  File: sample_78
+  Transcript: 'N/A'
+  True Emotion: pleasant_surprise
+  Predicted: happy (confidence: 0.6940)
+
+Failure Case #11:
+  Error Pattern: disgust → pleasant_surprise
+  File: sample_63
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: pleasant_surprise (confidence: 0.9144)
+
+Failure Case #12:
+  Error Pattern: disgust → pleasant_surprise
+  File: sample_324
+  Transcript: 'N/A'
+  True Emotion: disgust
+  Predicted: pleasant_surprise (confidence: 0.8324)
+
+
+
+================================================================================
+CROSS-VARIANT FAILURE ANALYSIS
+================================================================================
+
+Common Error Patterns Across Variants:
+--------------------------------------------------------------------------------
+
+angry → fear:
+  Occurs in: cross_attention, cross_attention, cross_attention, concatenation, concatenation, concatenation, gated, gated, gated, weighted, weighted, weighted
+
+pleasant_surprise → disgust:
+  Occurs in: cross_attention, cross_attention, cross_attention, concatenation, concatenation, concatenation, gated, gated, weighted, weighted, weighted
+
+disgust → pleasant_surprise:
+  Occurs in: cross_attention, cross_attention, cross_attention, gated, gated, gated, weighted, weighted
+
+neutral → angry:
+  Occurs in: cross_attention, cross_attention, cross_attention, gated, gated, gated
+
+pleasant_surprise → happy:
+  Occurs in: concatenation, concatenation, weighted, weighted
+
+happy → fear:
+  Occurs in: cross_attention, cross_attention, cross_attention
+
+disgust → sad:
+  Occurs in: concatenation, concatenation, concatenation
+
+pleasant_surprise → fear:
+  Occurs in: concatenation, concatenation, concatenation
+
+pleasant_surprise → angry:
+  Occurs in: gated, gated, gated
+
+neutral → pleasant_surprise:
+  Occurs in: weighted, weighted
+
+================================================================================
+
+KEY INSIGHTS:
+--------------------------------------------------------------------------------
+1. Error patterns common across variants suggest inherently confusing emotions
+2. Variant-specific errors indicate model architecture effects
+3. High-confidence mistakes reveal systematic biases in learned features
+
+================================================================================

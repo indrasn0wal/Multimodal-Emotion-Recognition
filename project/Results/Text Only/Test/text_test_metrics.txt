@@ -1,0 +1,16 @@
+==============================
+TEST SET PERFORMANCE
+==============================
+                   precision    recall  f1-score   support
+
+            angry       0.00      0.00      0.00        60
+          disgust       0.00      0.00      0.00        60
+             fear       0.00      0.00      0.00        60
+            happy       0.17      0.38      0.23        60
+          neutral       0.00      0.00      0.00        60
+pleasant_surprise       0.14      0.67      0.23        60
+              sad       0.00      0.00      0.00        60
+
+         accuracy                           0.15       420
+        macro avg       0.04      0.15      0.07       420
+     weighted avg       0.04      0.15      0.07       420

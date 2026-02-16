@@ -1,0 +1,22 @@
+============================================================
+TEXT-ONLY EMOTION RECOGNITION RESULTS
+============================================================
+
+Best Validation Accuracy: 0.1500
+Final Training Accuracy: 0.1429
+
+------------------------------------------------------------
+PER-CLASS ACCURACY (Text Baseline)
+------------------------------------------------------------
+Emotion              Accuracy   Correct    Total     
+------------------------------------------------------------
+angry                0.0000     0          60        
+disgust              0.0000     0          60        
+fear                 0.0000     0          60        
+happy                0.3833     23         60        
+neutral              0.0000     0          60        
+pleasant_surprise    0.6667     40         60        
+sad                  0.0000     0          60        
+------------------------------------------------------------
+
+Note: Low text accuracy is expected for TESS as text is static across emotions.
