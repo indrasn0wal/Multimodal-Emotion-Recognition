@@ -431,8 +431,3 @@ Multimodal-Emotion-Recognition/
 - **Scheduler:** ReduceLROnPlateau
 
 ---
-
-## ✅ Status
-
-**Last Updated:** February 2025  
-**Status:** ✅ Complete (Assignment 2 Submission)
